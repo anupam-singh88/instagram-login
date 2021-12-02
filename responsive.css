@@ -2,32 +2,31 @@
 	.box1{
 		display: none;
 	}
+	.im{
+		display: flex;
+	}
 	
 }
 @media screen and (max-width: 400px){
 	.box2{
 		background-color: transparent;
+		border: none;
 	}
 	.box3{
 		background-color: transparent;
+		border: none;
 	}
 	.box4{
 		background-color: transparent;
+		border: none;
 	}
 	
 }
-/* @media screen and (min-width:400px) and (max-width: 1200px){
-	.box3{
-		width: 30vw;
-	}
-	.box4{
-		width: 30vw;
-	}
-} */
 @media screen and (max-width: 1000px){
 	.im{
 		display: flex;
-		flex-direction: column;
+		/* flex-direction: column; */
+		margin: 2px;
 	}
 	body{
 		display: flex;
@@ -36,5 +35,11 @@
 	}
 	.img1{
 		width: 25vw;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.img1{
+		width: 50vw;
 	}
 }
