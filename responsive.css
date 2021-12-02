@@ -4,6 +4,18 @@
 	}
 	
 }
+@media screen and (max-width: 400px){
+	.box2{
+		background-color: transparent;
+	}
+	.box3{
+		background-color: transparent;
+	}
+	.box4{
+		background-color: transparent;
+	}
+	
+}
 /* @media screen and (min-width:400px) and (max-width: 1200px){
 	.box3{
 		width: 30vw;
